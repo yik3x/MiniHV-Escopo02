@@ -1,0 +1,4 @@
+; Requisição de disco no cilindro 10 para testar C-LOOK.
+MOV R0, 10
+DISK R0
+HALT

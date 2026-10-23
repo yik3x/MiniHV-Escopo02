@@ -1,0 +1,4 @@
+; Programa para exercitar enfileiramento e política C-LOOK.
+MOV R0, 20
+DISK R0
+HALT

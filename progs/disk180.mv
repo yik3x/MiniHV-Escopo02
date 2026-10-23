@@ -1,0 +1,4 @@
+; Requisição de disco no cilindro 180 para testar C-LOOK.
+MOV R0, 180
+DISK R0
+HALT

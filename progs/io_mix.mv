@@ -1,0 +1,7 @@
+; Exercita CONSOLE, DISK pelo algoritmo C-LOOK e NET.
+MOV R0, 42
+OUT R0
+MOV R1, 175
+DISK R1
+NET 24
+HALT

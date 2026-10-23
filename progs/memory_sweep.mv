@@ -1,0 +1,9 @@
+; Percorre páginas de dados, forçando substituições LRU global quando mem_words > memória física.
+MOV R0, 64
+MOV R1, 1
+STORE R1, [R0]
+ADDI R0, 64
+MOV R2, 8192
+SUB R2, R0
+JNZ R2, 2
+HALT

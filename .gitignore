@@ -1,0 +1,11 @@
+# Ignora a pasta de compilação e todos os arquivos gerados nela.
+build/
+
+# Ignora todos os arquivos e subpastas gerados dentro de out/.
+out/*
+
+# Mantém o arquivo .gitkeep para que a pasta out/ exista no GitHub.
+!out/.gitkeep
+
+# Ignora todos os arquivos de código objeto gerados durante a compilação.
+*.o

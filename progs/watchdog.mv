@@ -1,0 +1,2 @@
+; Laço infinito utilizado exclusivamente para testar o recurso WATCHDOG.
+JMP 0

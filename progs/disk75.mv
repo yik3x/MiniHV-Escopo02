@@ -1,0 +1,4 @@
+; Requisição de disco no cilindro 75 para testar C-LOOK.
+MOV R0, 75
+DISK R0
+HALT

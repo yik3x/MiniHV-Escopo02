@@ -1,0 +1,7 @@
+; TA-01: imprime 5, 4, 3, 2, 1 e encerra.
+MOV R0, 5
+MOV R1, 1
+OUT R0
+SUB R0, R1
+JNZ R0, 2
+HALT

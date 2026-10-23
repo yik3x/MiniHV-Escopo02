@@ -1,0 +1,3 @@
+; Deve ser rejeitado pelo loader com arquivo e linha.
+MOV R4, 1
+HALT

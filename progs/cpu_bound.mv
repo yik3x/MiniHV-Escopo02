@@ -1,0 +1,6 @@
+; Laço CPU-bound finito; também serve para comparar políticas.
+MOV R0, 100
+MOV R1, 1
+SUB R0, R1
+JNZ R0, 2
+HALT
